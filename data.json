@@ -1,0 +1,11 @@
+{
+  "user": [
+    {
+      "Name": "Jeevan Meher Bevara",
+      "Phone": "123456879",
+      "Email": "jeevanmeher30@gmail.com",
+      "id": "FMyHnwsaOY4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
