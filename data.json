@@ -5,6 +5,14 @@
       "Phone": "123456879",
       "Email": "jeevanmeher30@gmail.com",
       "id": "FMyHnwsaOY4"
+    },
+    {
+      "Name": " Meher Bevara",
+      "Phone": "8096449144",
+      "Email": "jeevanmeher30@gmail.com",
+      "Address": "zxcvbnmsdfghjertyui",
+      "Password": "zxcvbnma",
+      "id": "gcEOkoa_IV4"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
