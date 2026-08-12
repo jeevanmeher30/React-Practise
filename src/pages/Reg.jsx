@@ -30,6 +30,7 @@ let PhoneRegex = /^[0-9]{10}$/
 let PasswordRegex = /^[a-zA-Z0-9]{8,}$/
 let AddressRegex = /^[a-zA-Z0-9\s.,]{10,}$/
 
+let navigate=useNavigate();
 
 const validation =()=>{
 
@@ -91,6 +92,7 @@ axios.get(Url).then((res) =>{
   let emailExist = users.find((user) => user.Email === Email);
   if (emailExist){
     alert("Email already exists");
+    // navigate("/log")
     return;
   }else{
     let data = {Name,Phone,Email,Address,Password};
