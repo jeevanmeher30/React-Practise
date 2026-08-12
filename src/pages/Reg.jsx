@@ -3,6 +3,7 @@ import "../style/Reg.css"
 import { useState } from 'react'
 import axios from 'axios'
 import { Form } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 const Reg = () => {
 
@@ -82,18 +83,28 @@ const Postdata = (e) => {
   if(!validation()){
     return;
   }
-// cookies
-// local storage
 
-let user = {Name,Email,Phone,Address,Password}
-localStorage.setItem("user",JSON.stringify(user))
+// email all ready exits 
 
-
-  let data = {Name,Phone,Email,Address,Password};
+axios.get(Url).then((res) =>{
+  let users = res.data;
+  let emailExist = users.find((user) => user.Email === Email);
+  if (emailExist){
+    alert("Email already exists");
+    return;
+  }else{
+    let data = {Name,Phone,Email,Address,Password};
   axios.post(Url,data)
-  .then((res)=>alert("Registration Success"))
+  .then((res)=>{
+    alert("Registration Success")
+    navigate("/log")
+  }
+  )
   .catch((err)=> alert("Registration Failed"))
-}
+  }
+  });
+};
+
 
   return (
     
