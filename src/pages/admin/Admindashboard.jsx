@@ -14,7 +14,21 @@ const Admindashboard = () => {
         axios.get(Url)
         .then(res => setUsers(res.data))
         .catch(err => alert("network error"))
-    }
+    };
+
+
+
+
+    const Delete = (id) => {
+        console.log("Deleting data",id)
+
+        // axios.delete(Url+"/"+id)
+        axios.delete(`${Url}/${id}`)
+        .then(res=>{
+            alert("user deleted successfully");
+            getUsers();
+        }).catch((err) => alert("network error"));
+    };
 
 
     useEffect(()=> {
@@ -31,6 +45,10 @@ const Admindashboard = () => {
                 <i> {x.Email} </i>  <br />
                 <p>{x.Address} </p>  <br />
                 <span> {x.Phone} </span>  <br />
+                <div>
+                    <button onClick={() =>{Delete(x.id)}}>Delete</button>
+                    <button>Update</button>
+                </div>
 
       </div>
             </div>
