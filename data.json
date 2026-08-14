@@ -1,18 +1,49 @@
 {
   "user": [
+    
     {
       "Name": "Jeevan Meher Bevara",
-      "Phone": "123456879",
-      "Email": "jeevanmeher30@gmail.com",
-      "id": "FMyHnwsaOY4"
+      "Phone": "1234567891",
+      "Email": "liteyagami2005@gmail.com",
+      "Address": "zxcvbnmasdfghjkqwertyui",
+      "Password": "zxcvbnmasd",
+      "id": "NFJgNi2-xjU"
     },
     {
-      "Name": " Meher Bevara",
-      "Phone": "8096449144",
-      "Email": "jeevanmeher30@gmail.com",
-      "Address": "zxcvbnmsdfghjertyui",
-      "Password": "zxcvbnma",
-      "id": "gcEOkoa_IV4"
+      "Name": "Jeevan Meher Bevara",
+      "Phone": "1234567891",
+      "Email": "liteyagami2005@gmail.com",
+      "Address": "zxcvbnmasdfghjkqwertyui",
+      "Password": "zxcvbnmasd",
+      "id": "NFJgNi2-xjU"
+    },
+    
+    {
+      "Name": "Jeevan Meher Bevara",
+      "Phone": "1234567891",
+      "Email": "liteyagami2005@gmail.com",
+      "Address": "zxcvbnmasdfghjkqwertyui",
+      "Password": "zxcvbnmasd",
+      "id": "NFJgNi2-xjU"
+    },
+    
+    {
+      "Name": "Jeevan Meher Bevara",
+      "Phone": "1234567891",
+      "Email": "liteyagami2005@gmail.com",
+      "Address": "zxcvbnmasdfghjkqwertyui",
+      "Password": "zxcvbnmasd",
+      "id": "NFJgNi2-xjU"
+    },
+    
+    
+    {
+      "Name": "Dark yagami",
+      "Phone": "7531598524",
+      "Email": "jeevanmeherb@gmail.com",
+      "Address": "pmkniuvyuv",
+      "Password": "qwertyasdf",
+      "id": "lx0w4A3j_qs"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.admin-con{
+    min-height: 100vh;
+    width: 100%;
+    background-color:darkseagreen;
+    color: white;  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+
+}
+
+
+.admin-card{
+    height: 300px;
+    width: 300px;
+    padding: 40px 50px;
+    background-color: aliceblue;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:500 ;
+    margin : 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+  
+    
+    
+}

@@ -5,6 +5,7 @@ import Contact from "./pages/Contact"
 import About from "./pages/About"
 import Home from "./pages/Home"
 import Nav from "./pages/Nav"
+import Admindashboard from "./pages/admin/Admindashboard"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 const App=()=>{
@@ -22,6 +23,7 @@ const App=()=>{
                 <Route path="/reg" element={<Reg/>}/>
                 <Route path="/contact" element={<Contact/>}/>
                 <Route path="/about" element={<About/>}/>
+                <Route path = "/Admin/Admindashboard" element = {<Admindashboard />}></Route>
             </Routes>
 
             </BrowserRouter>

@@ -12,6 +12,7 @@ const Nav = () => {
           <Link to="/reg">Register</Link>
           <Link to="/about">About Us</Link>
           <Link to="/contact">Contact Us</Link>
+          <Link to="/Admin/Admindashboard">Admin</Link>
         </div>
       </nav>
 
