@@ -1,12 +1,20 @@
 {
   "user": [
     {
-      "Name": "Dark yagami",
-      "Phone": "7531598524",
-      "Email": "jeevanmeherb@gmail.com",
-      "Address": "pmkniuvyuv",
-      "Password": "qwertyasdf",
-      "id": "lx0w4A3j_qs"
+      "Name": "Yagami ",
+      "Phone": "7539637412",
+      "Email": "darkyagami@gmail.com",
+      "Address": "vgbhdfghgfd",
+      "Password": "12345678",
+      "id": "Ar_Ip_Lp2wQ"
+    },
+    {
+      "Name": "Peter B Parker ",
+      "Phone": "1456789123",
+      "Email": "spiderman@gmail.com",
+      "Address": "asdafdsfssfsfsdfterttgg",
+      "Password": "qwertyuiop",
+      "id": "ONNTOVIxX_U"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

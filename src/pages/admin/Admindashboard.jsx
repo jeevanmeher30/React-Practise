@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import "../../style/admin.css";
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 const Admindashboard = () => {
 
@@ -47,7 +48,9 @@ const Admindashboard = () => {
                 <span> {x.Phone} </span>  <br />
                 <div>
                     <button onClick={() =>{Delete(x.id)}}>Delete</button>
-                    <button>Update</button>
+                    <Link to={`/UserDetails/${x.id}`}>
+                        <button>Update</button> 
+                    </Link>
                 </div>
 
       </div>
@@ -57,9 +60,6 @@ const Admindashboard = () => {
     }
 
     )}
-        {/* <div>
-            <button onClick={getUsers}>get data</button>
-        </div> */}
       
     </main>
   )

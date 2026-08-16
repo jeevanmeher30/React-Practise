@@ -6,7 +6,8 @@ import About from "./pages/About"
 import Home from "./pages/Home"
 import Nav from "./pages/Nav"
 import Admindashboard from "./pages/admin/Admindashboard"
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { BrowserRouter, Route, Routes, Link } from "react-router-dom"
+import UserDetails from "./pages/admin/UserDetails"
 
 const App=()=>{
     return(
@@ -24,6 +25,7 @@ const App=()=>{
                 <Route path="/contact" element={<Contact/>}/>
                 <Route path="/about" element={<About/>}/>
                 <Route path = "/Admin/Admindashboard" element = {<Admindashboard />}></Route>
+                <Route path = "/UserDetails/:id" element = {<UserDetails />}></Route>
             </Routes>
 
             </BrowserRouter>
